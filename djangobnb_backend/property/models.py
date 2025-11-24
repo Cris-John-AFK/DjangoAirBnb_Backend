@@ -24,4 +24,3 @@ class Property(models.Model):
 
     def image_url(self):
         return f'{settings.WEBSITE_URL}{self.image.url}'
-s
